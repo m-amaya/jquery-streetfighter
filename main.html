@@ -1,13 +1,43 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title></title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/app.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <title>StreetFighter using jQuery</title>
+  <link rel="stylesheet" href="fonts/frygia/font-frygia.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="js/app.js"></script>
 </head>
+
 <body>
+
+  <audio autoplay loop>
+    <source src="sound/arcade.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="container">
+    <!-- Title Card -->
+    <img src="images/capcom_logo.png" alt="Capcom Logo" id="capcom-logo" class="capcom-logo centered init-hide">
+    <img src="images/powered-by.svg" alt="powered by" id="powered-by-svg" class="powered-by-svg centered init-hide">
+    <img src="images/jquery-logo.png" alt="jQuery Logo" id="jquery-logo" class="jquery-logo centered init-hide">
+    <img src="images/SF_logo.png" alt="Street Fighter logo" id="sf-logo" class="sf-logo init-hide">
+    
+    <!-- Initial Images -->
+    <img src="images/copy-1987.svg" alt="Copyright 1987 Capcom, Inc." id="copy" class="copy">
+    <img src="images/directions.svg" alt="Press k to kick, t to throw, space to clear" id="directions" class="directions init-hide">
+    <img src="images/ryu-ready-position.gif" alt="Ryu Ready Pose" id="ryu-ready" class="ryu init-hide">
+    <img src="images/ryu-cool.gif" alt="Ryu Cool Pose" id="ryu-cool" class="ryu init-hide">
+    <img src="images/ryu-spin-kick.gif" alt="Ryu Kick" id="ryu-kick" class="ryu init-hide">
+    <img src="images/ryu-throwing-hadouken.png" alt="Ryu Throwing" id="ryu-throw" class="ryu init-hide">
+    <img src="images/hadouken.gif" alt="Hadouken Fires" id="hadouken" class="hadouken init-hide">
+    
+    
+  </div>
+
 </body>
+
 </html>
